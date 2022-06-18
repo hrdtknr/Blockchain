@@ -21,6 +21,7 @@ func (b *Block) SetHash(){
 	b.Hash = hash[:]
 }
 
+// issue と紐づけできてなかった
 
 func main(){
 	fmt.Println("test")
